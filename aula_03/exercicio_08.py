@@ -5,7 +5,7 @@ incompleted_list = {
     'name':'Gabriel Rizzo da Silva'
     ,'age':'30 anos'
     ,'graduated':'s'
-    ,'address':None
+    ,'address':""
     ,'number':None
     ,'state':None
 }
@@ -23,7 +23,7 @@ list_to_check = incompleted_list
 none_list = []
 
 for info in list_to_check:
-    if list_to_check.get(info) is None:
+    if list_to_check.get(info) is None or list_to_check.get(info) == "":
         none_list.append(info)
     else:
         next
