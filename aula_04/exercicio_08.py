@@ -6,8 +6,6 @@ people = [
     {"name": "Jorge", "age": 40}
 ]
 
-# ordering_by_name = [name.get('name') for name in people]
-
 people.sort(key=lambda people: people["name"])
 
 print(people)
