@@ -2,7 +2,7 @@
 
 age_list = [10,12,14,16,22,27,35,39,45,58,66,78,95]
 
-majority_age = [e for e in age_list if e >= 18]
+majority_age = [age for age in age_list if age >= 18]
 
 print(f'The majority ages are: {majority_age}')
 
